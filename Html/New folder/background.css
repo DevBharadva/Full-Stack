@@ -1,0 +1,200 @@
+body{
+  
+    /* height: 10%; */
+    /* width: 10%; */
+    /* background-size: cover; */
+    /* position: fixed; */
+    /* background-repeat: no-repeat;
+    background-image: url("pexels-pixabay-36478.jpg"); */
+    /* height: 100px; */
+    /* width: 100vh; */
+    /* padding: 100px; */
+    /* border:100px solid transparent; */
+    /* background-color: rgb(55, 120, 230);
+    background-image: url("pexels-photomix-company-96627.jpg"); */
+    /* background-repeat:no-repeat; */
+    /* background-size:cover ; */
+    /* background-position:right; */
+    /* background-clip: content-box; */
+    /* background-origin: content-box; */
+    /* background-attachment: fixed; */
+    /* /* box-sizing: border-box; */
+
+
+} 
+
+/* css color */
+
+/* 
+rgb(red(0-255),green(0-255),blue(0-255)) */
+
+/* .rgb{
+    height: 700px;
+    width: 500px;
+    background-color: rgb(49,89,155);
+} */
+
+/* rgb(red(0-255),green(0-255),blue(0-255)), AP(0-1) */
+
+/* .rgba{
+    height: 500px;
+    background-color: rgba(200, 255  , 90 , 1);
+} */
+
+/* .hex{
+    height: 500px;
+    background-color:#4b0082;
+} */
+
+/* .hsl{
+    height: 500px;
+    background-color: hsl(360 , 100% , 50%);
+} */
+
+
+/* css background properties */
+
+/* 
+section{
+    height: 300px;
+    width: 300px;
+    padding: 100px;
+    border:100px solid transparent;
+    background-color: rgb(59,48,85);
+    background-image: url('../image/pexels-ekam-juneja-19408674.jpg');
+    background-repeat:repeat;
+    background-size: cover;
+    background-position:right;
+    background-clip: content-box;
+    background-origin: content-box;
+    background-attachment: fixed;
+    box-sizing: border-box;
+} */
+
+
+/* Background-blend Mode */
+
+/* section{
+    height: 600px;
+    background-image: url('../image/pexels-ekam-juneja-19408674.jpg')  , url('../image/big.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+} */
+
+
+
+
+
+
+
+
+/* .linear-gradient-1{
+    border: 10px solid black;
+    outline:20px groove blue;
+    height: 200px;
+    width:50%;
+    margin: 200px;
+    outline-offset: 100px;
+    background: linear-gradient(to top, red, blue);
+}  */
+/* 
+.diagonal-linear-gradient {
+    height: 700px;
+    width:100%;
+    border-radius: 400%;
+    background: linear-gradient(to bottom right,green, blue,green);
+} */
+
+/* .linear-gradient-rainbow {
+    height: 500px;
+    width:500px;
+    border-radius: 100%;
+    background: linear-gradient( red, orange, yellow, green, blue)
+} */
+
+/* .radial-gradient-simple {
+    height: 500px;
+    width:100%;
+    background: radial-gradient( red, orange, yellow, green, blue, indigo, violet);
+} */
+
+/* .radial-gradient {
+    height: 100vh;
+    width:100%;
+    background: radial-gradient(circle farthest-corner at right, red, blue);
+} */
+
+/* .bullseye {
+    height: 100vh;
+    width:100%;
+    background: repeating-radial-gradient(red, red 10%, white , white 20%);
+} */
+
+/* .warning {
+    height: 100vh;
+    width:100%;
+    background: repeating-linear-gradient(-90deg ,  yellow, yellow 10%, black 10%, black 20% );
+} */
+
+/* .conic{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    background-image: conic-gradient(red, rgb(0, 255, 30), rgb(128, 0, 102));
+}  */
+
+
+/* css border properties */
+
+/* css border types
+    solid
+    dotted
+    dashed
+    double
+    hidden
+    none
+    ridge
+    inset
+    outset
+    groove
+*/
+
+
+
+
+
+/* border radius */
+/* 
+.outline{
+    border: 30px solid darkblue;
+    height: 500px;
+    background-color:;
+} */
+
+
+/* css outline properties */
+
+
+/* .outline{
+    border: 100px solid green;
+    outline:10px dotted ;  
+    margin: 100px;
+} */
+    
+
+
+
+
+
+/* css opacity */
+
+.p2{
+    background-color: skyblue;
+    border: 10px;
+}
+
+
+/* css button */
+
+/* button tag */

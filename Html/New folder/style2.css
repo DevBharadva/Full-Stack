@@ -1,0 +1,138 @@
+/* listing tag and table tag in css */
+
+
+/* listing tag */
+
+
+/*
+    list-style-type
+    list-style-position
+    list-style-image
+*/
+
+/* ol{
+    list-style-type:none;
+}
+
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+
+}
+
+dl{
+    list-style-type: disc;
+    list-style-position: inside;
+} */
+
+
+
+/* unorder list */
+
+
+/* css box-shadow */
+
+.shadow{
+
+    height: 50px;
+    width: 200px;
+    border:2px solid rgb(170, 19, 19);
+    box-shadow:50px 20px 10px gray;
+}
+.shadow2{
+    margin-left: 100px;
+    height:50px;
+    width: 200px;
+    border: 2px solid rgba(248, 243, 243, 0);
+    background-color: rgb(197, 108, 20);
+    box-shadow: 10px 20px 30px saddlebrown;
+}
+.shadow3{
+    margin-left: 250px;
+    height:50px;
+    width: 200px;
+    border: 2px solid rgb(214, 113, 6);
+    background-color: rgb(236, 232, 225);
+    box-shadow: 10px 20px 30px rgb(75, 155, 96);
+}
+.shadow4{
+    margin-left: 350px;
+    height:50px;
+    width: 200px;
+    border: 2px solid rgb(1, 184, 41);
+    background-color: rgb(4, 43, 160);
+    box-shadow:  10px 20px 10px gray;
+
+}
+.shadow5{
+    margin-left: 500px;
+    height:50px;
+    width: 200px;
+    border: 2px solid blue;
+    background-color: rgb(12, 214, 62);
+    box-shadow: 10px 20px 30px rgb(54, 32, 90);
+}
+
+
+
+
+/* css box-shadow */
+
+
+
+
+/* Accent-Color*/
+
+
+/* 
+     disabled
+     enabled(defult)
+    ::placeholder
+    :checked
+    :focus
+    :hover
+    :required
+    :invalid
+    :valid 
+    ::marker
+
+*/
+
+/* input:invalid{
+    border:3px solid red;
+}
+input:valid{
+    border:3px solid green;
+}
+
+ol li::marker{
+    color:red;
+}
+ul li::marker{
+    color:red;
+}
+
+:read-write{
+    color:blue;
+}
+
+.box:lang(EN){
+    color:purple
+} */
+
+/*
+    :read-only
+    :read-write
+    :root
+    :lang()
+
+ :root{
+    --color:red;
+    --color:green;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: var(--color);
+} 

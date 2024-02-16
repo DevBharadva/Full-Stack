@@ -1,0 +1,103 @@
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@100&family=Roboto:wght@100&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@100&family=Roboto:wght@100&display=swap');
+
+/*{
+     box-sizing: border-box; 
+}*/
+.font p1{
+    /* text-align: center; */
+
+    unicode-bidi: bidi-override;
+    padding: 250px;
+
+}
+
+
+.font p{		
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 2rem;
+    font-style:italic;
+    font-variant:small-caps;
+    font-weight:50px;
+    line-height:30px;
+    
+}
+
+.font-family-2 p
+{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 3rem;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: inherit;
+}
+.text p1{
+    padding: 250px;
+
+}
+
+.text p{
+    color:black;
+    text-align:justify;
+    font-size: small;
+    
+    text-indent: 50px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    direction:rtl ;
+    unicode-bidi: bidi-override;
+    text-shadow: 10px -10px 1px black;
+    
+}
+
+ a{
+    border: 1px solid black;
+     text-decoration: line-through; 
+     
+} 
+a:hover{
+    color: red;
+
+}
+/* a:active{
+    
+} */
+
+/* css verticle alignment */
+
+.p{
+  margin: 0px; 
+  text-decoration: overline;
+
+}
+.img{
+    vertical-align: top;
+}
+
+
+/* css white space */
+
+.Whitespace{
+    white-space: pre;
+}
+
+
+/* css visibility */
+
+.box{
+    height: 50px;
+    width: 50px;
+    border: 1px;
+    background-color:black ;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+.p1{
+    margin: 0px;
+    text-decoration: line-through;
+    /* visibility: hidden; */
+    /* display: none; */
+}
