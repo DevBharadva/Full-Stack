@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        /* padstrart And padend string method */
+
+        {
+            // let str = "object";
+
+            // let startStr1 = str.padStart(10 , "o");
+            // let startStr2 = str.padEnd(10, "o");
+
+            // console.log(startStr1);
+
+            // console.log(startStr2);
+
+            // let num = "10";
+
+            // let numStr = num.padStart(10 , 0)
+            // let numStr1  = num.padEnd(10 , 0)
+
+            // console.log(numStr);
+            // console.log(numStr1);
+
+
+        }
+        /* repeat String Method */
+
+        {
+            // let str = "object";
+
+            // let repeatStr =  str.repeat(2)
+
+            // console.log(repeatStr);
+        }
+
+        /* toupperCase And toLowerCase string Method */
+
+        {
+            // let str = "Dog is very powerful And dog is honest but cat is very cute And cat is Lazy"
+
+            // let UpperStr = str.toUpperCase();
+            // let LowerStr = str.toLowerCase();
+
+            // console.log(UpperStr);
+            // console.log(LowerStr);
+        }
+
+        /* replace And replaceAll string Method */
+
+        /* 
+        
+        string.replace(Regex)
+        string.replaceAll(Regex)
+    
+        */
+
+        {
+            // let str = "Dog is very powerful And dog is honest but Cat is very cute And cat is Lazy"
+        
+            // // let replaceStr = str.replace("Dog" , "Cat")
+
+            // //             console.log(replaceStr);
+        
+            // let replaceStr1 = str.replace("dog", "cat")
+
+            //  console.log(replaceStr1);
+            
+            // let Regx = /dog/gi;
+
+            // let replaceStr2 = str.replace(Regx, "cat")
+
+            //  console.log(replaceStr2);
+
+            //  let replaceStr3 = str.replaceAll(Regx, "cat")
+
+            //  console.log(replaceStr3);
+        
+            //  let replaceStr4 = str.replace(/dog/gi, "cat")
+
+            //  console.log(replaceStr4);
+        
+            //  let replaceStr5 = str.replaceAll(/dog/gi, "cat")
+
+            //      console.log(replaceStr5);
+        
+
+        }
+
+        /* Match and MatchAll String Method */
+
+        {
+            let str = "Dog is very powerful And dog is honest but Cat is very cute And cat is Lazy"
+
+            let matchstr = str.match(/dog/g);
+
+            console.log(matchstr);
+
+            let matchAllStr = [...str.matchAll(/dog/g)];
+            console.log(matchAllStr);
+        }
+
+        /* toString And toValueof */
+
+        {
+            let Objectstr = new String("Hello Javascript");
+            
+            // let repeatStr = Objectstr.repeat(1)
+
+            //     console.log(repeatStr);
+                        
+            // let StringStr = Objectstr.toString();
+            
+            // let StringStr1 = Objectstr.valueOf();
+
+            // console.log(StringStr);
+
+            // console.log(StringStr1);
+
+
+        }
+
+    </script>
+
+</body>
+
+</html>

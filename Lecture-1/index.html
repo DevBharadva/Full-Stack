@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <script>
+        document.write("Hello! Javascript.");
+        console.log("Jay Dwarkadhish");
+    </script> -->
+</head>
+<body>
+    <h1>Dom element</h1>
+    <div class="intro">
+        Hey! How are you?
+    </div>
+
+<div id="Demo"></div>
+   <script src="demo.js">
+        const x = document.getElementsByClassName("intro")
+        
+        document.getElemetnById("Demo").innerHTML = 'this is Dom method (index 0) with class=" intro " is ' + x[0].innerHTML;
+        
+     </script>
+</body>
+</html>
