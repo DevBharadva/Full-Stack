@@ -1,0 +1,17 @@
+body{
+    font-family: arial;
+}
+
+.box{
+    /* width: 70%;
+    height: 200px; */
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid #000;
+    /* overflow: auto; */
+}
+
+
+
+
+

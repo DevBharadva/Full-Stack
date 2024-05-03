@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- <div class="box" id="test-1">
+        <h2>Box 1</h2>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, atque.</p>
+    </div> -->
+
+    <!-- <ul id="list">
+        <li>Mangos</li>
+        <li class="box">banana</li>
+        <li>grapes</li>
+        <li class="box">Apple</li>
+    </ul> -->
+
+    <!-- <button id="button">Click</button> -->
+
+<!-- form Events -->
+<!-- 
+<h1>Form Events</h1>
+
+<form action="" id="form">
+    <label for="">First Name</label> <input type="text" id="mail"><br><br>
+
+    <label for="">Last Name</label> <input type="text" id="txt"><br><br>
+
+    <label for="">Skills</label> 
+    <select id="Skill">
+        <option value=""></option>
+        <option value="Html">Html</option>
+        <option value="Css">Css</option>
+        <option value="Sass">Sass</option>
+        <option value="Tailwind">TailWind</option>
+        <option value="Javascript">Javascript</option>
+        <option value="jQuery">jQuery</option>
+    </select><br><br>
+
+    <input type="submit">
+
+</form>
+
+<div id="test" style="border: 1px solid black; margin-top: 20px;"></div> -->
+
+    <!--Windows Events-->
+
+        <!-- <h1>jQuery Window Events</h1>
+
+        <div class="main">
+            <div class="box" id="event">
+                <h2>Box</h2>
+
+                Lorem ipsum dolor sit <span></span>amet consectetur adipisicing elit. Quaerat reiciendis, adipisci omnis aut voluptates saepe quos optio. Quos aperiam aut perspiciatis amet nam totam accusamus rerum neque adipisci eum architecto eaque, reprehenderit autem, corrupti quibusdam laboriosam illo .
+            </div> -->
+        <!-- </div> -->
+
+        <h1>Form Events</h1>
+
+<form action="" id="form">
+    <label for="">First Name</label> <input type="text" id="mail"><br><br>
+
+    <label for="">Qualification </label> <input type="text" id="txt"><br><br>
+
+    <label for="">Skills</label> 
+    <select id="Skill">
+        <option value=""></option>
+        <option value="Html">Html</option>
+        <option value="Css">Css</option>
+        <option value="Sass">Sass</option>
+        <option value="Tailwind">TailWind</option>
+        <option value="Javascript">Javascript</option>
+        <option value="jQuery">jQuery</option>
+    </select><br><br>
+
+    <input type="submit">
+
+</form>
+    <script src="./jQuery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('form').submit(function(){
+                var name = $('#mail').val();
+                var className =  $('#txt').val();
+                alert(" Hello " + name + " His qualification is " + className)
+            })
+        })
+    </script>
+  
+</body>
+</html>
